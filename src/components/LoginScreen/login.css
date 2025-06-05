@@ -1,0 +1,80 @@
+/* Login Screen Styles */
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  min-height: 100vh;
+  background-color: #f9f9f9;
+}
+
+.login-content {
+  width: 90%;
+  max-width: 400px;
+  padding: 2rem 1rem;
+  margin-top: 3rem;
+  text-align: left;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #1a1a1a;
+  margin-bottom: 0.5rem;
+  line-height: 1.4;
+}
+
+p {
+  font-size: 0.9rem;
+  color: #7d7d7d;
+  margin-bottom: 2rem;
+}
+
+.form-group {
+  margin-bottom: 1.2rem;
+}
+
+label {
+  display: block;
+  font-size: 0.8rem;
+  color: #8a2be2;
+  margin-bottom: 4px;
+  font-weight: 600;
+}
+
+input {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.login-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #8a2be2;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 0.9rem;
+  cursor: pointer;
+  margin-top: 1rem;
+  transition: background-color 0.3s ease; 
+}
+
+.login-button:hover {
+  background-color: #7a1cd1;
+}
+
+.login-button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.login-button:disabled:hover {
+  background-color: #cccccc;  
+}
