@@ -30,7 +30,7 @@ const LoginScreen = () => {
     <div className="login-container">
       <div className="login-content">
         <h2>Signin to your <br /> PopX account</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
+        <p>Lorem ipsum dolor sit amet, <br/> consectetur adipiscing elit,</p>
 
         <form onSubmit={handleSubmit}>
           <div className="form-group">
